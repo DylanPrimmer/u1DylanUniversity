@@ -1,0 +1,63 @@
+﻿<Window x:Class="U1_McMaster_CompSci.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:U1_McMaster_CompSci"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel>
+        <Button x:Name="btnONE"
+                Height="320"
+            Click="Button_Click"
+                Content="McMaster University" FontSize="45" 
+                />
+
+        <Button x:Name="btnTWO"
+                Height="50"
+                Click="btnTWO_Click"                
+                Content="Computer Science Program, McMaster University" FontSize="16"
+                />
+        <TextBlock x:Name="TextBlock1" TextWrapping="WrapWithOverflow" FontSize="14"> 
+                 As of 2014, 30 117 students attend McMaster University. The program is relatively competitive to get into as it requires about a 92% average at the very least.	It will cost around $25 000 for tuition, a meal plan, and a 2 room apartment on residence. McMaster University is located in Hamilton ON, a medium sized city with a population of around 600 000.
+       </TextBlock>
+
+        <Button x:Name="btnTHREE"
+                Height="50"
+                Click="btnTHREE_Click"
+                Content="Computer Science Program, McMaster University" FontSize="16"
+                />
+        <TextBlock x:Name="TextBlock2" TextWrapping="WrapWithOverflow" FontSize="14">
+            Prerequisites for this course are;
+            
+            
+            
+            The prerequisites and recommended courses are;
+            ENG4U, MCV4U
+Two of: SBI4U, SCH4U, SPH4U, SES4U, ICS4U, TEJ4M.
+
+            As stated in the previous slide The program requires a 92% or above average.
+            
+        </TextBlock>
+
+        <Button x:Name="btnFOUR"
+                Height="50"
+                Click="btnFOUR_Click"
+                Content="Computer Science Program, McMaster University" FontSize="16"
+                />
+        <TextBlock x:Name="TextBlock3" TextWrapping="WrapWithOverflow" FontSize="14">
+            First year courses for this program are;
+            Computer Science 1JC3 – Introduction to Computational Thinking
+Computer Science 1MD3 – Introduction to Programming
+Computer Science 1XA3 – Computer Science Practice and Experience: Basic Concepts
+Mathematics 1ZA3 – Engineering Mathematics I
+Mathematics 1ZB3 – Engineering Mathematics II – A
+Mathematics 1ZC3 – Engineering Mathematics II – B
+WHMIS 1A00 – Introduction to Health and Safety
+            There is a total of 30 units for this program.
+
+        </TextBlock>
+               
+                   
+    </StackPanel>
+</Window>
